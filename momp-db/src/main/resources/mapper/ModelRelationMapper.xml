@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eking.momp.db.mapper.ModelRelationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eking.momp.db.model.ModelRelation">
+        <id column="id" property="id" />
+        <result column="code" property="code"/>
+        <result column="name" property="name" />
+        <result column="relation_type_id" property="relationTypeId" />
+        <result column="mapping" property="mapping"/>
+        <result column="model_id" property="modelId" />
+        <result column="target_model_id" property="targetModelId" />
+        <result column="model_field_id" property="modelFieldId" />
+        <result column="description" property="description" />
+        <result column="sys_init" property="sysInit" />
+        <result column="create_time" property="createTime" />
+        <result column="create_user" property="createUser" />
+        <result column="update_time" property="updateTime" />
+        <result column="update_user" property="updateUser" />
+        <result column="deleted" property="deleted" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, code, name, relation_type_id, mapping, model_id, target_model_id, model_field_id, description, sys_init, 
+        create_time, create_user, update_time, update_user, deleted
+    </sql>
+
+</mapper>
