@@ -20,7 +20,7 @@
 		<java.version>1.8</java.version>
 		<mybatis-plus.version>3.1.2</mybatis-plus.version>
 		<easyexcel.version>2.0.0</easyexcel.version>
-		<springfox-swagger.verstion>2.9.2</springfox-swagger.verstion>
+		<springfox-swagger.verstion>2.10.0</springfox-swagger.verstion>
 		<spring-boot-admin.version>2.1.6</spring-boot-admin.version>
 		<momp-common.version>0.0.1-SNAPSHOT</momp-common.version>
 		<momp-db.version>0.0.1-SNAPSHOT</momp-db.version>
